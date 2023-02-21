@@ -20,11 +20,7 @@ client.on("ready", () => {
   // Eğer botunuzun bir ses kanalında görünmesini istiyorsanız alttaki satırın başındaki ve sonundaki // işaretlerini silin
   client.channels.cache.get("855554326767468588").join(); //
   var altyazı = [
-    `Instagram: @benakifdora`,
-	  `Twitter: @akifdora`,
-    `TikTok: @akifdora`,
-    `Youtube: Akif DORA`,
-    `Twitch: akifdora`
+    "SenCorex?#0001
   ];
   setInterval(function() {
     var random = Math.floor(Math.random() * altyazı.length);
